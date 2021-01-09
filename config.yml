@@ -116,7 +116,7 @@ steps:
       - type: respond
         with: 4.2-webhooks.md
         
-   - title: 'Week 4: Intro to Webhooks (and Final Project)'
+  - title: 'Week 4: Intro to Webhooks (and Final Project)'
     description: Week 4 Description
     event: issue_comment.created
     link: '{{ repoUrl }}/issues/4'
