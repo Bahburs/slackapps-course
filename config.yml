@@ -116,13 +116,24 @@ steps:
       - type: respond
         with: 4.2-webhooks.md
         
-  - title: 'Week 4: Intro to Webhooks (and Final Project)'
+  - title: 'Week 4: Intro to Webhooks'
     description: Week 4 Description
     event: issue_comment.created
     link: '{{ repoUrl }}/issues/4'
     actions:
       - type: respond
         with: 4.3-final-project.md
+        
+   - title: 'Week 4: Final Project'
+    description: Week 4 Description
+    event: issue_comment.created
+    link: '{{ repoUrl }}/issues/4'
+    actions:
+      - type: respond
+        with: 0.0-done.md
+      - type: closeIssue
+        issue: 4
+        
  
 tags:
   - Slack 
