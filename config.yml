@@ -1,0 +1,18 @@
+title: slackapps
+description: >-
+  This learning lab course is intended for the purpose of Bit Project's bootcamp
+  with Slack on Slack Apps.
+template:
+  repo: slackapps-template
+  name: slackapps
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
